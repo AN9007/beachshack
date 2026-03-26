@@ -1,0 +1,61 @@
+
+/* responsive tablet */
+  @media (max-width: 1190px) {
+    .navStyles{
+        display: none;
+    }
+
+    .res-nav{
+        display: block;
+    }
+
+    .logo-res{
+        width: 200px;
+        z-index: 1000;
+        position: absolute;
+        top:13%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .menu-burger{
+        z-index: 2000;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 2em;
+        
+        height: 2em;
+       
+
+    }
+
+   
+
+    .nav-links-res{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        padding-top: 3em;
+        padding-bottom: 1em;
+        z-index: 1000;
+        
+   
+    }
+
+    .show-res-nav{
+        display: flex;
+      
+
+    }
+    .nav-link{
+        padding: 1em;
+    }
+
+  }
+
+
+
+  

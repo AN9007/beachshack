@@ -1,0 +1,110 @@
+/*Global styles*/
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom , white,#E2EDF3, #F1F6F9, white, #E2EDF3);/*#ceeaf7, #eefaff, #e6f6fd,white);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+body{
+  margin: 0;
+}
+
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+/* end global styles */
+
+
+
+.btn-style-s{
+  padding: 0.4em;
+  height: 93%;
+  background-color: rgb(22, 98, 124, 0.2) ;
+ 
+}
+
+
+.flex-btns{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1.5em;
+  margin-top: 0.8em;
+ 
+}
+
+.grid-btns p{
+  margin: 0;
+  text-align: center;
+ }
+ 
+
+
+ 
+
+ 
+
+
+@media (max-width: 768px) {
+  
+
+.mrg-body{
+  margin-inline: 10px;
+}
+
+
+
+}
+
+
+.custom-shape-divider-bottom-1739907393 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1739907393 svg {
+  position: relative;
+  display: block;
+  width: calc(108% + 1.3px);
+  height: 105px;
+}
+
+.custom-shape-divider-bottom-1739907393 .shape-fill {
+  fill: #E2EDF3;
+}
+
+
+/* Responsive phone*/
+
+@media (max-width: 768px) {
+
+  .custom-shape-divider-bottom-1739907393 .shape-fill {
+    fill: #e2f1fa;
+  }
+
+
+}
